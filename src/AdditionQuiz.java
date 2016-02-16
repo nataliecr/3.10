@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 public class AdditionQuiz {
-  public static void main(){
-    int number1 = (int)(Math.random() * 10);
-    int number2 = (int)(Math.random() * 10);
+  public static void main(String[] args){
+    int number1 = (int)(Math.random() * 10) + (int)(Math.random() * 99)+1;
+    int number2 = (int)(Math.random() * 10) + (int)(Math.random() * 99)+1;
     
     if(number1 < number2){
       int temp = number1;
